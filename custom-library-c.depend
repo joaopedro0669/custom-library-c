@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1747014934 source:d:\users\joão pedro\onedrive\documentos\jp\github projects\custom-library-c\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utillib.h"
+
+1746929214 d:\users\joão pedro\onedrive\documentos\jp\github projects\custom-library-c\utillib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1747014773 source:d:\users\joão pedro\onedrive\documentos\jp\github projects\custom-library-c\utillib.c
+	"utillib.h"
+
