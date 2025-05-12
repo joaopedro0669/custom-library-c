@@ -16,3 +16,18 @@ Sem retorno. Desenha um quadrado formado de caracteres.
 Sem retorno. Desenha um retângulo formado de caracteres.
 > Tipodes (enum) tem PRE e ESP como possíveis valores para preenchido e espaçado, respectivamente.
 ---
+### `remesp(char *str)`
+Sem retorno. Remove todos os espaços de uma string.
+---
+### `strtolower(char *str)`
+Sem retorno. Transforma todos os caracteres de uma string em minúsculos.
+---
+### `strtoupper(char *str)`
+Sem retorno. Transforma todos os caracteres de uma string em maiúsculos.
+---
+### `tobase(Dado dado, Tp_dado tp_dado, int base, int tamanho)`
+Retorno char*. Converte uma int, char ou string para bases numéricas.
+> Dado (union) tem i, c e s, que aceita um int, char e string, respectivamente.
+> Tp_dado (enum) rem TP_INT, TP_CHAR e TP_STRING como possíveis valores.
+> 1 < base <= 200.
+---
